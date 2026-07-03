@@ -23,16 +23,6 @@ I'm an undergraduate student at **South China University of Technology (SCUT)**,
 
 Since October 2025, I have been working on embodied AI and Vision-Language-Action models in Associate Professor Huiping Zhuang's research group at SCUT.
 
-My current work focuses on embodied AI, VLA policy reproduction and evaluation, robot data flywheels, bimanual manipulation, and safety-oriented computer vision.
-
-## Research Interests
-
-- Embodied AI and Vision-Language-Action models
-- Data flywheel systems for robot learning
-- Bimanual and general-purpose manipulation
-- Real-robot data collection and policy deployment
-- Computer vision, semantic segmentation, and safety engineering applications
-
 ## Selected Projects
 
 <table>
