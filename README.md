@@ -17,6 +17,8 @@
 
 ## About
 
+<img align="right" width="250" src="https://chiikawa.r2.1591420.xyz/images/default/04.gif" alt="Chiikawa animation" />
+
 I'm an undergraduate student at **South China University of Technology (SCUT)**, majoring in **Safety Engineering**.
 
 Since October 2025, I have been working on embodied AI and Vision-Language-Action models in Associate Professor Huiping Zhuang's research group at SCUT.
