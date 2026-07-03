@@ -120,14 +120,8 @@ My current work focuses on embodied AI, VLA policy reproduction and evaluation, 
 Programming      Python · PyTorch · Linux · Git
 Robot Learning   LeRobot · Isaac Lab · Isaac Sim · real-robot data collection
 VLA Policies     ACT · Diffusion Policy · SmolVLA · X-VLA · pi0 · KAI0
-Vision / OCR     Semantic segmentation · InsightFace · RapidOCR · PaddleOCR
 Agentic Coding   Claude Code · Codex · Cursor
 ```
-
-## Open Source
-
-- Submitted a merged pull request to the **2k+ star** open-source project [CodeIsland](https://github.com/wxtsky/CodeIsland).
-- Fixed crashes in Chinese multi-select interactions and incorrect handling of empty responses in `AskUserQuestion`.
 
 ## Education
 
@@ -136,18 +130,6 @@ B.Eng. Candidate in Safety Engineering<br>
 September 2024 - June 2028
 
 Relevant coursework: Linear Algebra, Calculus, Python Programming, Introduction to Artificial Intelligence.
-
-## Additional Experience
-
-- Participant in **two national-level undergraduate innovation projects**.
-- Recipient of **two provincial-level mathematical modeling awards**.
-
-## Current Focus
-
-- VLA policy reproduction, training, and evaluation
-- Data flywheel workflows for robot learning
-- Real-robot data collection and policy deployment
-- Bimanual and general-purpose manipulation
 
 ## GitHub
 
