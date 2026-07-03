@@ -117,6 +117,6 @@ Relevant coursework: Linear Algebra, Calculus, Python Programming, Introduction 
 ## GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sudo-yf&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudo-yf&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=sudo-yf&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=sudo-yf&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages" />
 </p>
