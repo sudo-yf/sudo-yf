@@ -35,49 +35,84 @@ My current work focuses on embodied AI, VLA policy reproduction and evaluation, 
 
 ## Selected Projects
 
-### [ICRA 2026 LeHome Challenge](https://github.com/sudo-yf/lehome-challenge)
-
-VLA policy reproduction, training, evaluation, and data engineering for bimanual garment manipulation.
-
-- Reproduced and evaluated **ACT, Diffusion Policy, SmolVLA, X-VLA, pi0, and KAI0**.
-- Ran systematic W&B experiments on learning rates, training steps, checkpoints, pretrained weights, and image augmentation.
-- Improved the Top-Long success rate from **76.67% to 86.67%** under a unified 60-episode evaluation.
-- Built an end-to-end data flywheel covering rollout, trajectory filtering, LeRobot Dataset merging, and retraining.
-- Curated **291 high-quality successful trajectories**.
-- Fixed `file_index` misalignment and missing `finalize()` issues that caused Parquet and dataset merging failures.
-- The team reached a final success rate of **59.25%** and ranked **17th globally** in the Simulation Track.
-
-### [Weak-Boundary Smoke Semantic Segmentation](https://github.com/sudo-yf/DeepLabV3Plus)
-
-Semantic segmentation for smoke with weak boundaries, smoke-cloud confusion, and complex fire-safety scenes.
-
-- Conducted more than ten smoke-burning experiments and collected over one hundred real smoke samples.
-- Used SAM 3 for semi-automatic annotation and supplemented the dataset with 90 generated multi-scene smoke images.
-- Collected and standardized **9,124 smoke segmentation images**.
-- Built a `train / val / test = 8000 / 833 / 291` split, with 291 high-quality manually annotated samples as the independent test set.
-- Introduced CE and Focal Tversky Loss into DeepLabV3+, improving mIoU from **78.4% to 82.4%**.
-
-### Intelligent Laboratory Chemical Management System
-
-An edge-model-based hazardous-chemical management system for laboratory intake, checkout, return, auditing, and anomaly tracking.
-
-- Delivered and deployed the first runnable version within two days.
-- Integrated face recognition, chemical-label OCR, and electronic-scale serial communication.
-- Used InsightFace to associate operators with chemical transactions and abnormal events.
-- Used RapidOCR and PaddleOCR for chemical-label recognition.
-- Combined name normalization and fuzzy matching with an index of **41,977 IECSC chemical names**.
-- Deployed online at [scut.leai.me](https://scut.leai.me).
-
-### [Argus Dual-Agent System](https://github.com/Argus-Agent/argus)
-
-A collaborative execution framework combining a GUI Agent and a Code Agent for computer-use tasks.
-
-- Designed Smart Router, failure fallback, Tool Calling, and Agent Memory mechanisms.
-- Supported screenshot understanding, window control, mouse and keyboard interaction, and code execution.
-- Used Doubao UI-TARS 1.5 7B for graphical interface understanding.
-- Deployed OpenCUA and conducted basic evaluations on OSWorld.
-- Developed GUI and CLI interfaces, Docker support, automated tests, and CI workflows.
-- Open-sourced the project and released an executable version.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <details>
+        <summary>
+          <b><a href="https://github.com/sudo-yf/lehome-challenge">ICRA 2026 LeHome Challenge</a></b><br>
+          <sub>VLA policies · LeRobot data · bimanual garment manipulation</sub>
+        </summary>
+        <br>
+        <p>VLA policy reproduction, training, evaluation, and data engineering for bimanual garment manipulation.</p>
+        <ul>
+          <li>Reproduced and evaluated <b>ACT, Diffusion Policy, SmolVLA, X-VLA, pi0, and KAI0</b>.</li>
+          <li>Ran systematic W&B experiments on learning rates, training steps, checkpoints, pretrained weights, and image augmentation.</li>
+          <li>Improved the Top-Long success rate from <b>76.67% to 86.67%</b> under a unified 60-episode evaluation.</li>
+          <li>Built an end-to-end data flywheel covering rollout, trajectory filtering, LeRobot Dataset merging, and retraining.</li>
+          <li>Curated <b>291 high-quality successful trajectories</b>.</li>
+          <li>Fixed <code>file_index</code> misalignment and missing <code>finalize()</code> issues that caused Parquet and dataset merging failures.</li>
+          <li>The team reached a final success rate of <b>59.25%</b> and ranked <b>17th globally</b> in the Simulation Track.</li>
+        </ul>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <details>
+        <summary>
+          <b><a href="https://github.com/sudo-yf/DeepLabV3Plus">Weak-Boundary Smoke Semantic Segmentation</a></b><br>
+          <sub>Fire-safety vision · smoke datasets · DeepLabV3+</sub>
+        </summary>
+        <br>
+        <p>Semantic segmentation for smoke with weak boundaries, smoke-cloud confusion, and complex fire-safety scenes.</p>
+        <ul>
+          <li>Conducted more than ten smoke-burning experiments and collected over one hundred real smoke samples.</li>
+          <li>Used SAM 3 for semi-automatic annotation and supplemented the dataset with 90 generated multi-scene smoke images.</li>
+          <li>Collected and standardized <b>9,124 smoke segmentation images</b>.</li>
+          <li>Built a <code>train / val / test = 8000 / 833 / 291</code> split, with 291 high-quality manually annotated samples as the independent test set.</li>
+          <li>Introduced CE and Focal Tversky Loss into DeepLabV3+, improving mIoU from <b>78.4% to 82.4%</b>.</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <details>
+        <summary>
+          <b>Intelligent Laboratory Chemical Management System</b><br>
+          <sub>Face recognition · OCR · inventory audit · <a href="https://scut.leai.me">scut.leai.me</a></sub>
+        </summary>
+        <br>
+        <p>An edge-model-based hazardous-chemical management system for laboratory intake, checkout, return, auditing, and anomaly tracking.</p>
+        <ul>
+          <li>Delivered and deployed the first runnable version within two days.</li>
+          <li>Integrated face recognition, chemical-label OCR, and electronic-scale serial communication.</li>
+          <li>Used InsightFace to associate operators with chemical transactions and abnormal events.</li>
+          <li>Used RapidOCR and PaddleOCR for chemical-label recognition.</li>
+          <li>Combined name normalization and fuzzy matching with an index of <b>41,977 IECSC chemical names</b>.</li>
+          <li>Deployed online at <a href="https://scut.leai.me">scut.leai.me</a>.</li>
+        </ul>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <details>
+        <summary>
+          <b><a href="https://github.com/Argus-Agent/argus">Argus Dual-Agent System</a></b><br>
+          <sub>GUI Agent · Code Agent · computer-use automation</sub>
+        </summary>
+        <br>
+        <p>A collaborative execution framework combining a GUI Agent and a Code Agent for computer-use tasks.</p>
+        <ul>
+          <li>Designed Smart Router, failure fallback, Tool Calling, and Agent Memory mechanisms.</li>
+          <li>Supported screenshot understanding, window control, mouse and keyboard interaction, and code execution.</li>
+          <li>Used Doubao UI-TARS 1.5 7B for graphical interface understanding.</li>
+          <li>Deployed OpenCUA and conducted basic evaluations on OSWorld.</li>
+          <li>Developed GUI and CLI interfaces, Docker support, automated tests, and CI workflows.</li>
+          <li>Open-sourced the project and released an executable version.</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
+</table>
 
 ## Technical Skills
 
